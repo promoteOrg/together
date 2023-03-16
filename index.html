@@ -1,1 +1,192 @@
-<div>start</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>together</title>
+
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/reset.css" >  
+    <style>
+        #wrap {width: 100%; min-width: 1600px;}
+        .inner {width: 1400px; margin: auto; position: relative; box-sizing: border-box;}
+        .main .con h2 {
+            font-size: 38px; 
+            font-weight: 700;
+        }
+
+        .main .premier {
+            width: 100%; 
+            background: #F8F7F5;}
+        .main .premier .inner {height: 835px;}
+        .main .premier .bg {
+            position: absolute;
+            top: 100px;
+            width: 100%; 
+            height: 690px;
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-image: url(../images/con3_bg.png);
+        }
+        .main .premier .bg h2 {
+            position: absolute;
+            left: 120px;
+            top: 140px;
+        }
+        .main .premier .bg .award {
+            position: absolute;
+            left: 120px;
+            top: 240px;
+            width: 300px;
+        }
+        .main .premier .bg .award ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .main .premier .bg .award ul li {
+            margin-right: 10px; 
+            margin-bottom: 15px;
+            background: #E0E0E0;
+            text-align: center;
+            line-height: 35px;
+            cursor: pointer;
+        }
+        .main .premier .bg .award ul li.on {
+            background: #FF731D; 
+            color: #fff;
+        }
+        .main .premier .bg .award ul li:nth-child(-n+2) {
+            width: 95px; 
+            height: 35px; 
+            border-radius: 30px;
+        }
+
+        .main .premier .bg .award ul li:nth-child(3), .main .premier .bg .award ul li:nth-child(6) {
+            width: 125px; 
+            height: 35px;
+            border-radius: 18px;
+        }
+
+        .main .premier .bg .award ul li:nth-child(4),.main .premier .bg .award ul li:nth-child(5) {
+            width: 135px; 
+            height: 35px;
+            border-radius: 18px;
+        }
+
+        .main .premier .bg .book-list {
+            position: absolute; 
+            right: 110px; 
+            top: 120px;
+        }
+        .main .premier .bg .book-list .list {
+            display: flex; 
+            opacity: 0;
+        }
+        .main .premier .bg .book-list .list li {
+            margin-left: 50px;
+        }
+        .main .premier .bg .book-list .list li:first-child {margin-left: 0;}
+        .main .premier .bg .book-list .list li a {}
+        .main .premier .bg .book-list .list li:first-child a img {
+            width: 270px; 
+            height: 400px; 
+            margin-top: 0;
+        }
+        .main .premier .bg .book-list .list li a img {
+            width: 200px; 
+            height: 285px;
+            margin-top: 115px;
+            box-shadow: 10px 10px 20px #999;
+        }
+
+    </style>
+</head>   
+<body>
+    <div id="skipNav"><a href="#contnet">본문바로가기</a></div>
+    <div id="wrap">
+    <main id="container" class="main">
+        <section id="content">
+            <article class="con premier">
+                <div class="inner">
+                    <div class="bg">
+                        <h2>수상도서</h2>
+                        <div class="award">
+                            <ul>
+                                <li class="on">#작가상</li>
+                                <li>#소설상</li>
+                                <li>#대학소설상</li>
+                                <li>#청소년문학상</li>
+                                <li>#어린이문학상</li>
+                                <li>#동시문학상</li>
+                            </ul>
+                        </div>
+                        <div class="book-list">
+                            <ul class="list">
+                                <li><a href="#"><img src="./images/con3_1_1.jpg" alt="여진"></a></li>
+                                <li><a href="#"><img src="./images/con3_1_2.jpg" alt="그믐"></a></li>
+                                <li><a href="#"><img src="./images/con3_1_3.jpg" alt="시간 있으면 나좀 좋아해줘"></a></li>
+                            </ul>
+                            <ul class="list">
+                                <li><a href="#"><img src="./images/con3_2_1.jpeg" alt="꿀벌 키우는 사람"></a></li>
+                                <li><a href="#"><img src="./images/con3_3_2.jpg" alt="남겨진 이름들"></a></li>
+                                <li><a href="#"><img src="./images/con3_2_3.jpg" alt="새의 선물"></a></li>
+                            </ul>
+                            <ul class="list">
+                                <li><a href="#"><img src="./images/con3_3_1.jpg" alt="환상통"></a></li>
+                                <li><a href="#"><img src="./images/con3_3_2.jpg" alt="최선의 삶"></a></li>
+                                <li><a href="#"><img src="./images/con3_3_3.jpg" alt="초록 가죽소파 표류기"></a></li>
+                            </ul>
+                            <ul class="list">
+                                <li><a href="#"><img src="./images/con3_4_1.jpg" alt="훌훌"></a></li>
+                                <li><a href="#"><img src="./images/con3_4_2.jpg" alt="독고솜에게 반하면"></a></li>
+                                <li><a href="#"><img src="./images/con3_4_3.jpg" alt="체리새우"></a></li>
+                            </ul>
+                            <ul class="list">
+                                <li><a href="#"><img src="./images/con3_5_1.jpg" alt="리보와 앤"></a></li>
+                                <li><a href="#"><img src="./images/con3_5_2.jpg" alt="마스크요정과 꼬마꽃벌"></a></li>
+                                <li><a href="#"><img src="./images/con3_5_3.jpg" alt="긴긴밤"></a></li>
+                            </ul>
+                            <ul class="list">
+                                <li><a href="#"><img src="./images/con3_6_1.jpg" alt="여름아이"></a></li>
+                                <li><a href="#"><img src="./images/con3_6_2.jpg" alt="웨하스를 먹는 시간"></a></li>
+                                <li><a href="#"><img src="./images/con3_6_3.jpg" alt="외톨이 왕"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- // content -->
+
+        </section>
+    </main>
+    <!-- // container -->
+    </div> 
+
+    <script src="./js/jquery.js"></script>   
+    <script>
+        $(function(){
+            premier();
+            $(document).on('click','a[href="#"]',function(e){ e.preventDefault() }) 
+        })
+        function premier(){
+            let $li = $('.main .premier .bg .award ul li');
+            let $bookList = $('.main .premier .bg .book-list .list');
+            let timer = null, interval = 4000, idx = 0;
+
+            $bookList.eq(0).css({opacity:1});
+
+            $li.on('click',function(){
+                idx = $(this).index();
+                $bookList.hide().css({opacity:0});
+                $bookList.eq(idx).show().animate({opacity:1},600);
+                $li.removeClass('on');
+                $li.eq(idx).addClass('on');
+            })
+        }
+    </script>
+</body>
+</html>
+
+
+
+
