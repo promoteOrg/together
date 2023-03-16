@@ -1,1 +1,40 @@
-<div>start</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .txt-box {height: 60px; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); font-size: 32px; font-weight: 600;}
+        .blink {animation: blink 0.5s infinite; font-size: 40px; font-weight: 300;}
+        @keyframes blink {
+            to {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- <div>start</div> -->
+    <div class="txt-box">
+        <span class="text"></span>
+        <span class="blink">|</span>
+    </div>
+
+    <script>
+        let content = "Hello, it's me.";
+        let text = document.querySelector(".text");
+        let idx = 0;
+
+        function typing(){
+            let txt = content[idx++];
+            text.innerHTML += txt;
+            if(idx > content.length){
+                text.textContent = content;
+            }
+        }
+        setInterval(typing, 100);
+    </script>
+</body>
+</html>
