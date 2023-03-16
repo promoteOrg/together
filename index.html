@@ -1,1 +1,37 @@
+<<<<<<< HEAD
 <div>start</div>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #clock{
+            background: lightblue;
+            color: #fff;
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+        <div>start</div>
+        <div id="clock"></div>
+        
+    <script>
+        function setClock(){
+            let now = new Date();
+            let s = '현재시간 '+now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds();
+            document.getElementById('clock').innerHTML=s;
+            setTimeout('setClock()', 1000);
+        }
+
+        setClock();
+    </script>
+</body>
+</html>
+>>>>>>> a
