@@ -1,1 +1,62 @@
-<div>start</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    a{text-decoration:none;color:#333;}
+    ol,ul,li{list-style:none; padding: 0;}
+    .inner {padding: 104px 0; width: 1374px; margin: auto; box-sizing: border-box; position: relative;}
+    .news h2 {font-size: 35px; letter-spacing: -0.45px; line-height: 35px; font-weight: 600;padding: 0;}
+    .news .more {display: flex; justify-content: end;}
+    .news .news-list li {position: relative; height: 165px; border-top: 1px solid #d9d9d9;}
+    .news .news-list li:last-child {border-bottom: 1px solid #d9d9d9;}
+    .news .news-list li a {width: 100%; display: flex; align-items: center; padding-left: 30px; height: 165px;}
+    .news .news-list li a .date {font-size: 18px;}
+    .news .news-list li a .date > span {display: block; font-size: 35px; line-height: 1.2;}
+    .news .news-list li a .news-title {font-size: 25px; margin-left: 30px;}
+    .news .news-list li a .news-title span {display: block; font-size: 18px; color: #E60012;}
+  </style>
+</head>
+<body>
+  <div class="news">
+    <div class="inner">
+      <h2>News</h2>
+      <p class="more">
+        <a href="#">MORE</a>
+      </p>
+      <ul class="news-list">
+        <li>
+          <a href="#">
+            <p class="date">23.01<span>04</span></p>
+            <p class="news-title">
+              <span>보도자료</span>
+              농심기획, 성수동에 농심 '신라면 팝업스토어' 오픈
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p class="date">22.11<span>10</span></p>
+            <p class="news-title">
+              <span>보도자료</span>
+              농심 사천백짬뽕 광고모델 임창정 발탁
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <p class="date">22.11<span>02</span></p>
+            <p class="news-title">
+              <span>보도자료</span>
+              농심기획, K-DESIGN AWARD 2022 커뮤니케이션 부문 위너(Winner) 수상
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
