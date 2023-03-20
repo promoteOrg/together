@@ -1,1 +1,116 @@
-<div>start</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+<link rel="stylesheet" href="css/reset.css" />
+<title>together</title>
+
+<style>
+#wrap{
+    width: 100%;
+}
+
+/* header */
+#header{
+    width: 100%;
+}
+#header .inner{
+    width: 100%;
+    height: 7rem;
+    margin: auto; 
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+#header h1 img{
+    width: 10rem;
+    margin-left: 5vw;
+}
+#header .nav{
+    width: 50%;
+}
+#header .nav .gnb{
+    display: flex; 
+    justify-content: space-between;
+}
+#header .nav .gnb li{
+    text-align: center;
+    margin: 10px;
+    width: 30%;
+}
+#header .nav .gnb li a{
+    display: block;
+    font-size: 19px;
+}
+#header .nav .gnb li:hover a{
+    color:#2F80ED;
+}
+
+#header .menu{
+    width:7rem; height: 100%;
+    background: #2F80ED;
+    text-align: center;
+    cursor: pointer;
+}
+#header .menu:hover{background: #000200;}
+#header .menu i{
+    font-size: 3rem; 
+    color:#fff;
+    line-height: 7rem;
+}
+</style>
+
+</head>
+<body>
+    <div id="wrap">
+    <header id="header">
+        <div class="inner">
+            <h1>
+                <a href="#"
+                ><img src="images/logo_promote.svg" alt="프로모트 로고"
+                /></a>
+            </h1>
+            <nav class="nav">
+                <ul class="gnb">
+                    <li>
+                        <a href="#">최기영</a>
+                    </li>
+                    <li>
+                        <a href="#">강예나</a>
+                    </li>
+                    <li>
+                        <a href="#">윤성지</a>
+                    </li>
+                    <li>
+                        <a href="#">임유선</a>
+                    </li>
+                    <li>
+                        <a href="#">박서영</a>
+                    </li>
+                    <li>
+                        <a href="#">김나경</a>
+                    </li>
+                    <li>
+                        <a href="#">조혜진</a>
+                    </li>
+                    <li>
+                        <a href="#">정진아</a>
+                    </li>
+                    <li>
+                        <a href="#">이다혜</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu all-menu">
+                <i class="xi-bars"></i>
+            </div>
+        </div>
+    </header>
+</div>
+
+<script src="./js/jquery.js"></script> 
+</body>
+</html>
